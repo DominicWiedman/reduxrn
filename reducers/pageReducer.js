@@ -5,7 +5,7 @@ export default (state= 1, action) => {
         case NEW_PAGE:
             return state + 1;
         case FIRST_PAGE:
-            return 10;
+            return 1;
         default:
             return state;
 
